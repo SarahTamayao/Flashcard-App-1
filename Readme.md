@@ -5,7 +5,7 @@
 ## Lab 2
 
 ### App Description
-`TODO://` Add app description
+This flashcard app features the creation screen where the user can enter a question and answer, and click done. After clicking done, a flashcard with the question and answer is created.
 
 ### App Walk-though
 
