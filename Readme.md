@@ -1,6 +1,26 @@
 ## Flashcard App
 
-`NOTE` Paste this template at the top of your existing `README.md` file from the last lab.
+
+## Lab 3
+
+### App Description
+This app allows the user to create flashcards, go back and forth through them and saves them when the app is closed, so that when the user returns to the app, the flashcards they created are there.
+
+### App Walk-though
+
+<img src=http://g.recordit.co/Ix8SOj95qN.gif width=200><br>
+
+
+## Required
+- [X] User can browse through multiple flashcards
+- [X] User can re-open the app and see previously created flashcards
+- [X] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [ ] User can store multiple choice questions
+
+
 
 ## Lab 2
 
