@@ -4,14 +4,12 @@
 ## Lab 3
 
 ### App Description
-`TODO://` Add app description
+This app allows the user to create flashcards, go back and forth through them and saves them when the app is closed, so that when the user returns to the app, the flashcards they created are there.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src=http://g.recordit.co/Ix8SOj95qN.gif width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ## Required
 - [X] User can browse through multiple flashcards
