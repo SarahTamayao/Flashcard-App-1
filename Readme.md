@@ -6,7 +6,6 @@
 This app allows the user to create flashcards and go through them. Whenever the user clicks on a question, the flashcard does a flipping animation as it reveals the answer. The users can also see a sliding animation of the flashcards as they go through the next and previous cards. The app has an app icon you can see from the home screen and it also has a splash screen.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
 <img src="http://g.recordit.co/8WzcqTw6mr.gif" width=200><br>
 
