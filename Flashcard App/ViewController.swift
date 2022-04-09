@@ -39,21 +39,58 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didtTapOnFlashcard(_ sender: Any) {
-        frontLabel.isHidden=true;
-    
+        flipFlashcard();
         
+    }
+    
+    
+    @IBOutlet weak var Card: UIView!
+    
+    func flipFlashcard(){
+        frontLabel.isHidden=true;
+        UIView.transition(with: Card, duration: 0.3, options: .transitionFlipFromRight) {
+            self.frontLabel.isHidden=true;
+        }}
+    
+    
+    func animateCardOut(){
+        UIView.animate(withDuration: 0.3, animations:{ self.Card.transform = CGAffineTransform.identity.translatedBy(x: -300.0, y:0.0)} , completion:{ finished in
+            self.updateLabels()
+
+            self.animateCardIn()
+        })
+    }
+    
+    func animateCardIn(){
+        Card.transform = CGAffineTransform.identity.translatedBy(x: 300.0, y: 0.0)
+        UIView.animate(withDuration:0.3){
+            self.Card.transform = CGAffineTransform.identity
+    }
     }
     
     @IBAction func didTapOnPrev(_ sender: Any) {
         
-     
         currentIndex = currentIndex - 1
-        
-        //Update labels
-        updateLabels()
-        
+  
         //update buttons
         updateNextPrevButtons()
+        
+        animateCardIn()
+        
+        //animates card out
+        UIView.animate(withDuration: 0.3, animations:{ self.Card.transform = CGAffineTransform.identity.translatedBy(x: 300.0, y:000.0)
+        })
+        //updates labels
+        updateLabels()
+        
+        //animates card in
+        Card.transform = CGAffineTransform.identity.translatedBy(x: -300.0, y: 000.0)
+        UIView.animate(withDuration:0.3){
+            self.Card.transform = CGAffineTransform.identity
+            
+    }
+        
+       
     }
     
     
@@ -62,10 +99,12 @@ class ViewController: UIViewController {
         currentIndex = currentIndex + 1
         
         //Update labels
-        updateLabels()
+       // updateLabels()
         
         //Update buttons
         updateNextPrevButtons()
+        
+        animateCardOut()
         
     }
     
