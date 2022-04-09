@@ -1,5 +1,27 @@
 ## Flashcard App
 
+## Lab 4
+
+### App Description
+This app allows the user to create flashcards and go through them. Whenever the user clicks on a question, the flashcard does a flipping animation as it reveals the answer. The users can also see a sliding animation of the flashcards as they go through the next and previous cards. The app has an app icon you can see from the home screen and it also has a splash screen.
+
+### App Walk-though
+`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+
+<img src=http://g.recordit.co/8WzcqTw6mr.gif width=200><br>
+
+## Required
+- [X] User should see the app icon 
+- [X] User should see a splash screen
+- [X] User should see an flip animation when revealing the answer
+- [X] User should see a slide animation when going to the next flashcard
+- [X] User should see a slide animation when going to the previous flashcard
+- [X] Push code to GitHub
+## Optional
+- [ ] User should see a nicer flaschard with rounded corners, shadows, and animating when showing the first time
+- [ ] User should see all views properly layout when using the app on a phone of different sizes
+- [ ] Correct answer in multiple choice should be random
+- [ ] 
 
 ## Lab 3
 
